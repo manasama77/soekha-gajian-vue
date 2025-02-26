@@ -118,7 +118,7 @@ const textProyeksi = computed(() => {
                     <CardTitle class="p-6">
                         <div class="flex justify-between">
                             <div class="flex flex-col space-y-3">
-                                <CardTitle v-if="toggleAbsen" class="tracking-widest text-destructive">
+                                <CardTitle v-if="toggleAbsen" class="tracking-widest text-red-500">
                                     Rp.{{ potongan_absen_show }}
                                 </CardTitle>
                                 <CardTitle v-else="!toggleFullSummaryGaji" class="tracking-widest">
@@ -143,7 +143,7 @@ const textProyeksi = computed(() => {
                     <CardTitle class="p-6">
                         <div class="flex justify-between">
                             <div class="flex flex-col space-y-3">
-                                <CardTitle v-if="toggleKeterlambatan" class="tracking-widest text-destructive">
+                                <CardTitle v-if="toggleKeterlambatan" class="tracking-widest text-red-500">
                                     Rp.{{ potongan_keterlambatan_show }}
                                 </CardTitle>
                                 <CardTitle v-else="!toggleFullSummaryGaji" class="tracking-widest">
@@ -168,7 +168,7 @@ const textProyeksi = computed(() => {
                     <CardTitle class="p-6">
                         <div class="flex justify-between">
                             <div class="flex flex-col space-y-3">
-                                <CardTitle v-if="toggleIjin" class="tracking-widest text-destructive">
+                                <CardTitle v-if="toggleIjin" class="tracking-widest text-red-500">
                                     Rp.{{ potongan_ijin_show }}
                                 </CardTitle>
                                 <CardTitle v-else="!toggleFullSummaryGaji" class="tracking-widest">
