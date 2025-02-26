@@ -21,7 +21,7 @@ const mainNavItems: NavItem[] = [
         subMenu: [
             {
                 title: 'Departement',
-                href: '/departement',
+                href: route('setup.departements.index'),
                 icon: Building,
             },
         ],
